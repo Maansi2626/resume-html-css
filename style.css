@@ -1,0 +1,94 @@
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+
+/* Element Selectors */
+body {
+  font-family: 'Libre Baskerville', serif;
+  background: #ffffff;
+  color: #2e2e3a;
+  margin: 0;
+  padding: 0;
+}
+
+header, nav, main, section, footer {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #5e4b8b;
+  text-decoration: none;
+}
+
+/* Class Selectors */
+.container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.navbar {
+  background-color: #5e4b8b;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.navbar h1 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+}
+
+.navbar li {
+  display: inline;
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+.section h2 {
+  border-bottom: 2px solid #5e4b8b;
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+}
+
+.card {
+  background: #f6f5fb;
+  border: 1px solid #ddd;
+  border-left: 6px solid #5e4b8b;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.contact-info {
+  font-size: 0.95em;
+  color: #555;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+/* ID Selectors */
+#footer {
+  text-align: center;
+  font-size: 0.9em;
+  color: #777;
+  padding: 20px 0;
+  border-top: 1px solid #ccc;
+}
